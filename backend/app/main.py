@@ -29,7 +29,11 @@ setup_telemetry(app)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "http://localhost:5173",
+        "https://tofi-kp32.onrender.com",
+        "https://*.vercel.app",  # covers all Vercel previews
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
