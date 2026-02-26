@@ -7,10 +7,13 @@ A full-stack AI Agent platform with LangGraph-powered tool execution, real-time 
 ---
 ## 🌐 Live Demo
 
-🔗 Frontend (Vercel):\
+🔗 Frontend (Vercel):
+https://tofi-aiagent.vercel.app/
 
 
 🔗 Backend (Render):\
+https://tofi-kp32.onrender.com
+
 
 
 ------------------------------------------------------------------------
